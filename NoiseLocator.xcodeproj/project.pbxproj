@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062FE37A9399A875BCD34777 /* FFTProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21430D0813CF5424917D81EC /* FFTProcessor.swift */; };
+		0BD6E84A9D77823F4B0136DC /* MeasurePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203D38E22DC95CF5C8062F80 /* MeasurePoint.swift */; };
+		0FCABBA878850A1671D909CC /* AnomalyDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F82F79666449D00A80E1EE /* AnomalyDetector.swift */; };
+		29FC2BF8F0C4B5000FB56483 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C9313658445A82676F7510 /* TaskModel.swift */; };
+		2E5AE3EF5C24346D8925430A /* SpectrumChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D540FD11ED1E34942FEDF2B /* SpectrumChartView.swift */; };
+		3CC0DA11DD6FAD7A900B5465 /* SourceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3E4DBA43E44C6C3491A4A7 /* SourceLocator.swift */; };
+		5877D24A74282D4FC97FE608 /* OctaveBands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFA6DFBA6A4BF9AEBCB9A49 /* OctaveBands.swift */; };
+		692B1AE9C9D717AD3FE75A29 /* AudioGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84635381C19C50125AF94E7E /* AudioGenerator.swift */; };
+		79E8D0C88673AD7EC41770F6 /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D081E6FB9E3A58BB956F9F /* AnalysisView.swift */; };
+		84B28329AEE1E84C1E4BA7E6 /* SpectrumAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE11377162D26D195535BA3 /* SpectrumAnalyzer.swift */; };
+		879A9B47BE1FE6AFBD282B1F /* MathUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5854B65F3BCBCABF7836D0A4 /* MathUtils.swift */; };
+		8970834D7B2B930648DBCFEF /* NoiseLocatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379D61442973D33E7E8F552 /* NoiseLocatorApp.swift */; };
+		91FA585FBF1C514DAC663FD5 /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B6AD2B66D2D2C7803F2EA3 /* CaptureView.swift */; };
+		928AB2D9EDA73532DC658DD4 /* AudioCaptureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B17791AD2395BB6F3EA92E4 /* AudioCaptureManager.swift */; };
+		A480CCC21AFD97FB918FC0D8 /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B43E33B352D55C5D929B3DD /* LocationMapView.swift */; };
+		ABE85359E183A74E840A0247 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4591F8AA18F325027664287 /* Recording.swift */; };
+		BB1C21BAE9E5AD2A295080A3 /* AudioSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1102BD5C73B947672D6D71 /* AudioSession.swift */; };
+		BB4DC6713542264CF02EBA41 /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D9EE39EF2488D29D1BDB3B /* TaskDetailView.swift */; };
+		E514A4B3C006F060AEA2025D /* FrequencyVerifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D989D4273143838428E7DC /* FrequencyVerifyView.swift */; };
+		E85CAE93B90C8C599D4ABBBD /* FrequencyBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C486DB96D9EFD06164A44E2 /* FrequencyBand.swift */; };
+		F2CBCFAF433756D16ADD34B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52CFE772E41E70513E679A9 /* ContentView.swift */; };
+		FE3D9D2BF30D39206F8A5FA6 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA678A242A301160F1481A90 /* AudioPlayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04CF524A2C4E88FC87277ECD /* NoiseLocator.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = NoiseLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D081E6FB9E3A58BB956F9F /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
+		1B17791AD2395BB6F3EA92E4 /* AudioCaptureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCaptureManager.swift; sourceTree = "<group>"; };
+		1C486DB96D9EFD06164A44E2 /* FrequencyBand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyBand.swift; sourceTree = "<group>"; };
+		203D38E22DC95CF5C8062F80 /* MeasurePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurePoint.swift; sourceTree = "<group>"; };
+		21430D0813CF5424917D81EC /* FFTProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTProcessor.swift; sourceTree = "<group>"; };
+		2379D61442973D33E7E8F552 /* NoiseLocatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoiseLocatorApp.swift; sourceTree = "<group>"; };
+		25F82F79666449D00A80E1EE /* AnomalyDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnomalyDetector.swift; sourceTree = "<group>"; };
+		2D1102BD5C73B947672D6D71 /* AudioSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSession.swift; sourceTree = "<group>"; };
+		3B43E33B352D55C5D929B3DD /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
+		3D540FD11ED1E34942FEDF2B /* SpectrumChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectrumChartView.swift; sourceTree = "<group>"; };
+		5854B65F3BCBCABF7836D0A4 /* MathUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathUtils.swift; sourceTree = "<group>"; };
+		63B6AD2B66D2D2C7803F2EA3 /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
+		6CFA6DFBA6A4BF9AEBCB9A49 /* OctaveBands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctaveBands.swift; sourceTree = "<group>"; };
+		74D9EE39EF2488D29D1BDB3B /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+		84635381C19C50125AF94E7E /* AudioGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioGenerator.swift; sourceTree = "<group>"; };
+		9B3E4DBA43E44C6C3491A4A7 /* SourceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLocator.swift; sourceTree = "<group>"; };
+		ADE11377162D26D195535BA3 /* SpectrumAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectrumAnalyzer.swift; sourceTree = "<group>"; };
+		B4591F8AA18F325027664287 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
+		B52CFE772E41E70513E679A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C5C9313658445A82676F7510 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		D3D989D4273143838428E7DC /* FrequencyVerifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyVerifyView.swift; sourceTree = "<group>"; };
+		EA678A242A301160F1481A90 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		26ACA91F8A37D2CF20AB5A93 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				25F82F79666449D00A80E1EE /* AnomalyDetector.swift */,
+				1B17791AD2395BB6F3EA92E4 /* AudioCaptureManager.swift */,
+				84635381C19C50125AF94E7E /* AudioGenerator.swift */,
+				EA678A242A301160F1481A90 /* AudioPlayer.swift */,
+				21430D0813CF5424917D81EC /* FFTProcessor.swift */,
+				ADE11377162D26D195535BA3 /* SpectrumAnalyzer.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		337BDB36B7B398B25F245A61 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9DDF1D0758F31ADA8B86E07F /* App */,
+				26ACA91F8A37D2CF20AB5A93 /* Audio */,
+				A4BF9BEA357CAE910AAA16B7 /* Localization */,
+				6150B4B370C432EBAAE82E8B /* Models */,
+				C4A413B1AEFE4331C0F3E41C /* Utils */,
+				71895A0DB375C952501ED20F /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4D65BCE9752D307DEF993478 = {
+			isa = PBXGroup;
+			children = (
+				337BDB36B7B398B25F245A61 /* Sources */,
+				6B3AD7E5081748048CC41929 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6150B4B370C432EBAAE82E8B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				203D38E22DC95CF5C8062F80 /* MeasurePoint.swift */,
+				B4591F8AA18F325027664287 /* Recording.swift */,
+				C5C9313658445A82676F7510 /* TaskModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6B3AD7E5081748048CC41929 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CF524A2C4E88FC87277ECD /* NoiseLocator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71895A0DB375C952501ED20F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				15D081E6FB9E3A58BB956F9F /* AnalysisView.swift */,
+				63B6AD2B66D2D2C7803F2EA3 /* CaptureView.swift */,
+				D3D989D4273143838428E7DC /* FrequencyVerifyView.swift */,
+				3B43E33B352D55C5D929B3DD /* LocationMapView.swift */,
+				3D540FD11ED1E34942FEDF2B /* SpectrumChartView.swift */,
+				74D9EE39EF2488D29D1BDB3B /* TaskDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9DDF1D0758F31ADA8B86E07F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B52CFE772E41E70513E679A9 /* ContentView.swift */,
+				2379D61442973D33E7E8F552 /* NoiseLocatorApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A4BF9BEA357CAE910AAA16B7 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				9B3E4DBA43E44C6C3491A4A7 /* SourceLocator.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		C4A413B1AEFE4331C0F3E41C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2D1102BD5C73B947672D6D71 /* AudioSession.swift */,
+				1C486DB96D9EFD06164A44E2 /* FrequencyBand.swift */,
+				5854B65F3BCBCABF7836D0A4 /* MathUtils.swift */,
+				6CFA6DFBA6A4BF9AEBCB9A49 /* OctaveBands.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65C8B743DE46B997B61DF72B /* NoiseLocator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7BC9A5671DBF1B837F06802 /* Build configuration list for PBXNativeTarget "NoiseLocator" */;
+			buildPhases = (
+				EC6A87E69AEE46DCC3974964 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoiseLocator;
+			packageProductDependencies = (
+			);
+			productName = NoiseLocator;
+			productReference = 04CF524A2C4E88FC87277ECD /* NoiseLocator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3AC6E5BD619E594B1A1446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 8C0E344487B4FB9F90C0AB62 /* Build configuration list for PBXProject "NoiseLocator" */;
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 4D65BCE9752D307DEF993478;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6B3AD7E5081748048CC41929 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65C8B743DE46B997B61DF72B /* NoiseLocator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6A87E69AEE46DCC3974964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E8D0C88673AD7EC41770F6 /* AnalysisView.swift in Sources */,
+				0FCABBA878850A1671D909CC /* AnomalyDetector.swift in Sources */,
+				928AB2D9EDA73532DC658DD4 /* AudioCaptureManager.swift in Sources */,
+				692B1AE9C9D717AD3FE75A29 /* AudioGenerator.swift in Sources */,
+				FE3D9D2BF30D39206F8A5FA6 /* AudioPlayer.swift in Sources */,
+				BB1C21BAE9E5AD2A295080A3 /* AudioSession.swift in Sources */,
+				91FA585FBF1C514DAC663FD5 /* CaptureView.swift in Sources */,
+				F2CBCFAF433756D16ADD34B8 /* ContentView.swift in Sources */,
+				062FE37A9399A875BCD34777 /* FFTProcessor.swift in Sources */,
+				E85CAE93B90C8C599D4ABBBD /* FrequencyBand.swift in Sources */,
+				E514A4B3C006F060AEA2025D /* FrequencyVerifyView.swift in Sources */,
+				A480CCC21AFD97FB918FC0D8 /* LocationMapView.swift in Sources */,
+				879A9B47BE1FE6AFBD282B1F /* MathUtils.swift in Sources */,
+				0BD6E84A9D77823F4B0136DC /* MeasurePoint.swift in Sources */,
+				8970834D7B2B930648DBCFEF /* NoiseLocatorApp.swift in Sources */,
+				5877D24A74282D4FC97FE608 /* OctaveBands.swift in Sources */,
+				ABE85359E183A74E840A0247 /* Recording.swift in Sources */,
+				3CC0DA11DD6FAD7A900B5465 /* SourceLocator.swift in Sources */,
+				84B28329AEE1E84C1E4BA7E6 /* SpectrumAnalyzer.swift in Sources */,
+				2E5AE3EF5C24346D8925430A /* SpectrumChartView.swift in Sources */,
+				BB4DC6713542264CF02EBA41 /* TaskDetailView.swift in Sources */,
+				29FC2BF8F0C4B5000FB56483 /* TaskModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		05F63B56130AEBC23972BB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noiselocator.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8AB05BF82C40D48997DA7511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NoiseLocator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96A43A01CE8C2C0113C8F10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noiselocator.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBFD939C3B5207F0F6D8D152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NoiseLocator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C0E344487B4FB9F90C0AB62 /* Build configuration list for PBXProject "NoiseLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB05BF82C40D48997DA7511 /* Debug */,
+				FBFD939C3B5207F0F6D8D152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F7BC9A5671DBF1B837F06802 /* Build configuration list for PBXNativeTarget "NoiseLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A43A01CE8C2C0113C8F10D /* Debug */,
+				05F63B56130AEBC23972BB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3AC6E5BD619E594B1A1446 /* Project object */;
+}
